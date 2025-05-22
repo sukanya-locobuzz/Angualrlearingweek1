@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: blue;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

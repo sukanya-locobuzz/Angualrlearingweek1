@@ -1,0 +1,9 @@
+<button (click)="showContactInfo = !showContactInfo">
+    Toggle Contact Info
+  </button>
+  
+  <div *ngIf="showContactInfo">
+    <h2>Contact Me</h2>
+    <p>You can reach me at email&#64;example.com.</p>
+  </div>
+  
